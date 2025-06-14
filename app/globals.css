@@ -1,26 +1,58 @@
 @import "tailwindcss";
+.cardimg{
+    background-position: top;
+}
+*{
+ scroll-behavior: smooth; 
+}
+/* In your global.css or a dedicated CSS file */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* --- Fade In / Slide Up (Default-like) --- */
+.fade-up-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.fade-up-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* --- Slide from Left --- */
+.slide-left-hidden {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.slide-left-visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* --- Slide from Right --- */
+.slide-right-hidden {
+  opacity: 0;
+  transform: translateX(100px);
+}
+.slide-right-visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* --- Scale In --- */
+.scale-hidden {
+  opacity: 0;
+  transform: scale(0.8);
+}
+.scale-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* --- Rotate In (Slight X-axis rotation) --- */
+.rotate-x-hidden {
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+.rotate-x-visible {
+  opacity: 1;
+  transform: rotateX(0deg);
 }
