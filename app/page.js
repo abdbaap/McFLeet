@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "./navbar";
+
 import Latestbullietins from "./latestbullietins";
 import Ip from "./ip";
 import AnimateOnScroll from "./AnimateOnScroll";
