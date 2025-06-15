@@ -1,3 +1,4 @@
+import Navbar from "../navbar";
 export const metadata = {
   // This is the long heading that users search for and see in browser tabs.
   title: "MCFleet Survival: Extensive, Lag-Free Minecraft Survival Mode | India's Best", //
