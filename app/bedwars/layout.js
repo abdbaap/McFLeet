@@ -1,3 +1,4 @@
+import Navbar from "../navbar";
 export const metadata = {
   // This is the long heading for search engines and browser tabs.
   title: "MCFleet Bedwars: Defend, Destroy, Conquer! | Lag-Free Minecraft Bedwars in India",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         */}
 
         <main>
+    </Navbar>
           {children}
         </main>
       </body>
