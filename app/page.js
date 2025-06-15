@@ -41,7 +41,8 @@ export default function Home() {
 >
   Your browser does not support the video tag.
 </video>
-      <Navbar />
+      <Navbar bg="bg-transparent"/>
+    
       <div className="  flex flex-col shadow-sm hover:shadow-xl shadow-yellow-50 text-center w-[100%] justify-center items-center  my-0 p-4 ">
         <div className="flex w-[100%] flex-col p-8 gap-4 md:my-16 justify-center items-center ">
           <span className="text-3xl text-white font-bold font-bold">
