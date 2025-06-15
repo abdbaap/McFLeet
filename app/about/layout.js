@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
     
-        <Navbar bg="gray-900"/>
+        <Navbar bg="bg-gray-900"/>
     
         {children} {/* This renders the content from your page.js file */}
       </body>
