@@ -16,7 +16,7 @@ const PrivacyPolicyPage = () => {
             Your data matters. Understanding how we protect your privacy.
           </p>
           <p className="text-lg text-gray-500 mt-4">
-            By Abhigya Ajmani - June 13, 2025
+            By Abhigya Ajmani &ndash; June 13, 2025
           </p>
         </header>
 
@@ -42,11 +42,11 @@ const PrivacyPolicyPage = () => {
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
-              I collect various types of information for different purposes to provide and improve my website's content and services.
+              I collect various types of information for different purposes to provide and improve my website&apos;s content and services.
             </p>
             <h3 className="text-3xl font-semibold mb-4 mt-6">Usage Data</h3>
             <p className="mb-6">
-              I may also collect information about how the website is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of my website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data. This data helps me understand user behavior and improve the website's performance and content.
+              I may also collect information about how the website is accessed and used (&quot;Usage Data&quot;). This Usage Data may include information such as your computer&apos;s Internet Protocol address (e.g., IP address), browser type, browser version, the pages of my website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data. This data helps me understand user behavior and improve the website&apos;s performance and content.
             </p>
             <h3 className="text-3xl font-semibold mb-4 mt-6">Cookies and Tracking Technologies</h3>
             <p>
@@ -92,10 +92,10 @@ const PrivacyPolicyPage = () => {
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
-              I do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist me in operating my website, conducting my business, or servicing you, so long as those parties agree to keep this information confidential. I may also release your information when I believe release is appropriate to comply with the law, enforce my site policies, or protect my rights or others' rights, property, or safety.
+              I do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist me in operating my website, conducting my business, or servicing you, so long as those parties agree to keep this information confidential. I may also release your information when I believe release is appropriate to comply with the law, enforce my site policies, or protect my rights or others&apos; rights, property, or safety.
             </p>
             <p>
-              Non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
+              Non&ndash;personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
             </p>
           </div>
         </section>
@@ -135,11 +135,11 @@ const PrivacyPolicyPage = () => {
         {/* Section: Children's Privacy */}
         <section className="section-card bg-white p-12 rounded-3xl shadow-xl mb-10 transition-all duration-300 border-2 border-green-200 hover:translate-y-[-8px] hover:shadow-2xl">
           <h2 className="text-5xl font-bold text-center text-blue-800 mb-10 flex items-center justify-center gap-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Children">👶</span> Children's Privacy
+            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Children">👶</span> Children&apos;s Privacy
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
-              My website does not address anyone under the age of 13 ("Children"). I do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children have provided me with Personal Data, please contact me. If I become aware that I have collected Personal Data from children without verification of parental consent, I take steps to remove that information from my servers.
+              My website does not address anyone under the age of 13 (&quot;Children&quot;). I do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children have provided me with Personal Data, please contact me. If I become aware that I have collected Personal Data from children without verification of parental consent, I take steps to remove that information from my servers.
             </p>
           </div>
         </section>
@@ -210,7 +210,7 @@ const PrivacyPolicyPage = () => {
         }
         .icon {
             font-size: 4rem; /* Even larger icon size */
-            margin-bottom: 1.5rem;
+             margin-bottom: 1.5rem;
             display: inline-block;
             vertical-align: middle;
             line-height: 1;
