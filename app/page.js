@@ -5,6 +5,8 @@ import Ip from "./ip";
 import AnimateOnScroll from "./AnimateOnScroll";
 
 export default function Home() {
+  // JavaScript string literals should still use regular quotes as they are part of JS syntax.
+  // Converting these to &quot; or &apos; would cause syntax errors.
   let features=[
   {
     "gameMode": "Bedwars",
@@ -43,7 +45,7 @@ export default function Home() {
         <div className="flex w-[100%] flex-col p-8 gap-4 md:my-16 justify-center items-center ">
           <span className="text-3xl text-white font-bold font-bold">
 Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
-          <span className="text-xl text-white font-bold font-bold ">Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.
+          <span className="text-xl text-white font-bold font-bold ">Dive into MCFleet, India&apos;s leading Minecraft server designed for modern gamers. Forget lag and network issues &ndash; we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.
 </span>
           <button className="text-xl bg-blue-800 drop-shadow-2xl text-white font-bold px-8 rounded-4xl py-4">Start Adventure Now!</button>
         </div>
@@ -52,12 +54,12 @@ Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Discover MCFleet: Built for Gamers, By Gamers.</span>
         <span className="text">
-MCFleet stands as India's premier Minecraft server, meticulously crafted by the renowned Indian YouTuber and gamer, Gamerfleet. Designed to address the common pain points of online gaming, MCFleet prides itself on offering a virtually lag-free and stable experience, ensuring that Indian players can immerse themselves without the frustration of connectivity issues. This vibrant server boasts a diverse array of game modes to cater to every kind of player, from the strategic battles of Bedwars and the expansive exploration of Survival, to a dynamic Arcade section brimming with a multitude of engaging mini-games. Beyond the core offerings, MCFleet also features a unique mini parkour game, challenging players' agility and precision. To further fuel competition and community engagement, the server incorporates a comprehensive leaderboard system, allowing players to track their progress and compete for top honors across all their favorite game modes.</span></div>
+MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by the renowned Indian YouTuber and gamer, Gamerfleet. Designed to address the common pain points of online gaming, MCFleet prides itself on offering a virtually lag-free and stable experience, ensuring that Indian players can immerse themselves without the frustration of connectivity issues. This vibrant server boasts a diverse array of game modes to cater to every kind of player, from the strategic battles of Bedwars and the expansive exploration of Survival, to a dynamic Arcade section brimming with a multitude of engaging mini-games. Beyond the core offerings, MCFleet also features a unique mini parkour game, challenging players&apos; agility and precision. To further fuel competition and community engagement, the server incorporates a comprehensive leaderboard system, allowing players to track their progress and compete for top honors across all their favorite game modes.</span></div>
 <Image src="/survivalcardoption.jpg" width={400} height={400} alt="survival series image" className="rounded-xl"></Image>
       </div>
       </AnimateOnScroll>
       <div className="flex flex-col justify-center items-center text-center w-[100%]  my-8"><span className="text-3xl font-bold">Features</span>
-  
+
   <AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
       <div id="blogs" className="flex flex-wrap gap-4 p-4 justify-center items-center text-center w-[100%]">
 {features.map((card) => {
@@ -68,8 +70,8 @@ MCFleet stands as India's premier Minecraft server, meticulously crafted by the 
   <span className="text text-white font-bold">{card.paragraph}
 </span>
      <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2">Explore Now!</button>
-       
-  
+
+
 </div>
 
 }
@@ -80,12 +82,12 @@ MCFleet stands as India's premier Minecraft server, meticulously crafted by the 
 
         <div className="founder sm:flex-row flex flex-col md:flex-row justify-evenly items-center gap-4 md:p-16 p-8 my-8 w-[100%]">
 <Image src="/founder.jfif" width={400} height={400} alt="survival series image" className="rounded-xl w-[400px]"></Image><AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
-  
+
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Meet the Visionary: Anshu Bisht (Gamerfleet)</span>
         <span className="text">
 
-MCFleet stands as a testament to the vision and dedication of Anshu Bisht, better known to millions as the beloved Indian gaming YouTuber, Gamerfleet. As the astute mind behind MCFleet, Anshu recognized a critical need within the Indian Minecraft community: a premium server experience free from the persistent lag and network frustrations that often plagued local players. His passion for gaming, combined with an unwavering commitment to his audience, drove him to establish MCFleet – a platform built from the ground up to offer unparalleled stability, diverse game modes, and a thriving, competitive environment. Anshu's leadership ensures that MCFleet remains at the forefront of Indian Minecraft, consistently delivering an optimized, engaging, and genuinely fun space for gamers nationwide.</span>
+MCFleet stands as a testament to the vision and dedication of Anshu Bisht, better known to millions as the beloved Indian gaming YouTuber, Gamerfleet. As the astute mind behind MCFleet, Anshu recognized a critical need within the Indian Minecraft community: a premium server experience free from the persistent lag and network frustrations that often plagued local players. His passion for gaming, combined with an unwavering commitment to his audience, drove him to establish MCFleet &ndash; a platform built from the ground up to offer unparalleled stability, diverse game modes, and a thriving, competitive environment. Anshu&apos;s leadership ensures that MCFleet remains at the forefront of Indian Minecraft, consistently delivering an optimized, engaging, and genuinely fun space for gamers nationwide.</span>
 </div>
 </AnimateOnScroll>
       </div>
@@ -93,4 +95,5 @@ MCFleet stands as a testament to the vision and dedication of Anshu Bisht, bette
       <Ip/>
       </div>
   );
-}
+    }
+        
