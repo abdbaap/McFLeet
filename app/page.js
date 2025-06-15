@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "./navbar";
 import Latestbullietins from "./latestbullietins";
 import Ip from "./ip";
@@ -9,19 +10,19 @@ export default function Home() {
   // Converting these to &quot; or &apos; would cause syntax errors.
   let features=[
   {
-    "gameMode": "Bedwars",
+    "gameMode": "bedwars",
     "heading": "Conquer the Sky: Bedwars Unleashed",
     "paragraph": "Prepare for intense, tactical showdowns in MCFleet's optimized Bedwars arenas. Join your squad on sky-high islands, strategically gathering resources, building impenetrable defenses around your bed, and launching decisive strikes against enemy strongholds. Our low-ping environment ensures every bridge you build, every diamond you collect, and every final kill is executed with precision, letting your strategy shine. Dominate the skies, protect your core, and lead your team to victory in the most fluid Bedwars experience tailored for Indian players.",
     "imageUrl": "/bedwarscard.jpg"
   },
   {
-    "gameMode": "Survival",
+    "gameMode": "survival",
     "heading": "Forge Your Saga: Ultimate Survival",
     "paragraph": "Embark on an expansive, lag-free Survival journey on MCFleet. Our world offers boundless opportunities to explore vast biomes, gather rare resources, and construct your dream base without the frustration of network issues. Whether you're battling menacing mobs, delving into treacherous caves, or collaborating with fellow players to build monumental projects, our stable server ensures a seamless and immersive adventure. This isn't just survival; it's your chance to carve out your own legendary story in a world built for endless possibilities.",
     "imageUrl": "/survivalcard.jpg"
   },
   {
-    "gameMode": "Arcade",
+    "gameMode": "arcade",
     "heading": "Instant Fun: The Arcade Playground",
     "paragraph": "Need a quick burst of adrenaline or a casual break from intense battles? MCFleet's Arcade section is your ultimate destination. Dive into a constantly evolving collection of unique mini-games, from lightning-fast PvP challenges to quirky, engaging puzzles and competitive skill tests. With new games regularly introduced, there's always something fresh to discover. Enjoy seamless gameplay and instant action, perfect for quick matches with friends or honing your skills across a diverse range of thrilling experiences.",
     "imageUrl": "/arcadecard.jpg"
@@ -69,7 +70,7 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
 {card.heading}</span>
   <span className="text text-white font-bold">{card.paragraph}
 </span>
-     <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2">Explore Now!</button>
+     <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2"> <Link href=`/${card.gameMode}`>Explore Now!</Link></button>
 
 
 </div>
