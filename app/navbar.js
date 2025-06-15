@@ -21,7 +21,7 @@ const Navbar = ({bg}) => {
               <Link href="/" className="p-4 w-[100%] hover:bg-gray-900">Home</Link>
               <Link href="/about" className="p-4 w-[100%] hover:bg-gray-900">About</Link>
               <Link href="/support" className="p-4 w-[100%] hover:bg-gray-900">Contact</Link>
-              <Link href="#blogs" className="p-4 w-[100%] hover:bg-gray-900">Blogs</Link>
+              <Link href="/#blogs" className="p-4 w-[100%] hover:bg-gray-900">Blogs</Link>
             </div>
             
         </div>
