@@ -1,3 +1,4 @@
+import Navbar from "../navbar";
 export const metadata = {
   // This is the long heading for search engines and browser tabs.
   title: "MCFleet Arcade: Your Ultimate Mini-Game Hub! | Lag-Free Minecraft Mini-Games in India",
