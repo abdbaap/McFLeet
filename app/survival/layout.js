@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+    <Navbar/>
         {children} {/* This renders the content from your page.js file */}
       </body>
     </html>
