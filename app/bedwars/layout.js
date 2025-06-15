@@ -18,7 +18,8 @@ export default function RootLayout({ children }) {
         */}
 
         <main>
-    <Navbar/>
+    <Navbar bg="bg-gray-900"/>
+    
           {children}
         </main>
       </body>
