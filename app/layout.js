@@ -1,6 +1,6 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css"; // Assuming you have a globals.css for global styles
-
+import Footer from "./footer";
 // Configure the Poppins font
 const poppins = Poppins({
   subsets: ['latin'],
