@@ -5,7 +5,8 @@ import React from 'react';
 const TermsAndConditionsPage = () => {
   return (
     <div className="bg-indigo-50 min-h-screen flex flex-col items-center justify-center py-12">
-    <Navbar/>
+    <Navbar bg="bg-gray-900"/>
+    
     {/* Main container for the blog content */}
       <main className="container mx-auto p-4 md:p-10">
         {/* Header section of the blog post */}
