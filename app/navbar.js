@@ -11,7 +11,7 @@ const Navbar = ({bg}) => {
 
       
     }
-  return (<nav className={`flex  py-4 z-40 justify-between relative  items-center w-[100%]  bg-${bg}`}>
+  return (<nav className={`flex  py-4 z-40 justify-between relative  items-center w-[100%]  ${bg}`}>
         <Link href="#home" className="text-2xl justify-center items-center text-2xl font-extrabold gap-2 mx-2 text-white flex"><Image src={"/logo.png"} width={50} height={50} alt="logo.jpg" className="ghg"></Image> MCFleet</Link>
         <div className="dropdown group flex  flex-col mx-2">
 <svg onClick={()=>showindex()} className="w-10 invert " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
