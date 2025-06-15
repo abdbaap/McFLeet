@@ -10,20 +10,20 @@ const SupportPage = () => {
         {/* Header section of the blog post */}
         <header className="text-center mb-16">
           <h1 className="text-6xl font-extrabold text-purple-900 mb-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            Need Assistance? We're Here to Help! 🤝
+            Need Assistance? We&apos;re Here to Help! 🤝
           </h1>
           <p className="text-2xl text-gray-700">
             Your comprehensive guide to getting support for all your gaming and tech queries.
           </p>
           <p className="text-lg text-gray-500 mt-4">
-            By Abhigya Ajmani - June 13, 2025
+            By Abhigya Ajmani &ndash; June 13, 2025
           </p>
         </header>
 
         {/* Section: General Inquiries & FAQs */}
         <section className="section-card bg-white p-12 rounded-3xl shadow-xl mb-10 transition-all duration-300 border-2 border-purple-200 hover:translate-y-[-8px] hover:shadow-2xl">
           <h2 className="text-5xl font-bold text-center text-purple-800 mb-10 flex items-center justify-center gap-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Question Mark">❓</span> General Inquiries & FAQs
+            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Question Mark">❓</span> General Inquiries &amp; FAQs
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
@@ -38,7 +38,7 @@ const SupportPage = () => {
         {/* Section: Bug Reports & Technical Issues */}
         <section className="section-card bg-gray-50 p-12 rounded-3xl shadow-xl mb-10 transition-all duration-300 border-2 border-purple-200 hover:translate-y-[-8px] hover:shadow-2xl">
           <h2 className="text-5xl font-bold text-center text-blue-800 mb-10 flex items-center justify-center gap-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Bug">🐛</span> Bug Reports & Technical Issues
+            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Bug">🐛</span> Bug Reports &amp; Technical Issues
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
@@ -48,7 +48,7 @@ const SupportPage = () => {
               <li className="mb-2">Exact steps to reproduce the issue.</li>
               <li className="mb-2">Any error messages displayed.</li>
               <li className="mb-2">The specific game mode or section where the issue occurred.</li>
-              <li className="mb-2">Your in-game name or relevant identifiers (if applicable).</li>
+              <li className="mb-2">Your in&ndash;game name or relevant identifiers (if applicable).</li>
               <li className="mb-2">Screenshots or short video clips can be extremely helpful.</li>
             </ul>
             <p>
@@ -60,11 +60,11 @@ const SupportPage = () => {
         {/* Section: Suggestions & Feedback */}
         <section className="section-card bg-white p-12 rounded-3xl shadow-xl mb-10 transition-all duration-300 border-2 border-purple-200 hover:translate-y-[-8px] hover:shadow-2xl">
           <h2 className="text-5xl font-bold text-center text-green-800 mb-10 flex items-center justify-center gap-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Lightbulb">💡</span> Suggestions & Feedback
+            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Lightbulb">💡</span> Suggestions &amp; Feedback
           </h2>
           <div className="text-xl text-gray-800">
             <p className="mb-6">
-              Do you have a brilliant idea for new content, a feature improvement, or general feedback on how we can make this website and its content even better? We are all ears! Your insights are crucial for our continuous evolution. Whether it's about blog post topics, website usability, or anything else that comes to mind, please do not hesitate to share.
+              Do you have a brilliant idea for new content, a feature improvement, or general feedback on how we can make this website and its content even better? We are all ears! Your insights are crucial for our continuous evolution. Whether it&apos;s about blog post topics, website usability, or anything else that comes to mind, please do not hesitate to share.
             </p>
             <p>
               Constructive criticism and innovative ideas help us grow and ensure that this platform remains a valuable resource for its community. Your voice matters!
@@ -75,24 +75,24 @@ const SupportPage = () => {
         {/* Section: Community Support & Direct Contact */}
         <section className="section-card bg-gray-50 p-12 rounded-3xl shadow-xl mb-10 transition-all duration-300 border-2 border-purple-200 hover:translate-y-[-8px] hover:shadow-2xl">
           <h2 className="text-5xl font-bold text-center text-red-800 mb-10 flex items-center justify-center gap-6" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.1)' }}>
-            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Speech Bubbles">💬</span> Community & Direct Contact
+            <span className="text-7xl mb-6 inline-block align-middle leading-none" role="img" aria-label="Speech Bubbles">💬</span> Community &amp; Direct Contact
           </h2>
           <div className="text-xl text-gray-800">
-            <p class="mb-6">
-                While this specific blog post doesn't feature direct contact forms or community links, in a live website setting, you would typically find avenues like:
+            <p className="mb-6">
+                While this specific blog post doesn&apos;t feature direct contact forms or community links, in a live website setting, you would typically find avenues like:
             </p>
-            <ul class="list-disc list-inside text-gray-800 ml-8 mt-6 mb-6">
-                <li class="mb-2">
-                    <span class="text-accent">🔗 Official Discord Server:</span> For real-time chat, community discussions, and often, quick answers from experienced players or moderators.
+            <ul className="list-disc list-inside text-gray-800 ml-8 mt-6 mb-6">
+                <li className="mb-2">
+                    <span className="text-accent">🔗 Official Discord Server:</span> For real&ndash;time chat, community discussions, and often, quick answers from experienced players or moderators.
                 </li>
-                <li class="mb-2">
-                    <span class="text-accent">📧 Email Support:</span> For more private, specific, or urgent matters that require direct attention. You can reach us at abhigyaworkspace@gmail.com.
+                <li className="mb-2">
+                    <span className="text-accent">📧 Email Support:</span> For more private, specific, or urgent matters that require direct attention. You can reach us at abhigyaworkspace@gmail.com.
                 </li>
-                <li class="mb-2">
-                    <span class="text-accent"> social media channels:</span> For general announcements and sometimes direct messages for support.
+                <li className="mb-2">
+                    <span className="text-accent"> social media channels:</span> For general announcements and sometimes direct messages for support.
                 </li>
             </ul>
-            <p class="mb-6">
+            <p className="mb-6">
                 For the purpose of this blog, please consider how you would ideally direct users to your preferred support channels. Always aim for clarity and ease of access when providing support avenues.
             </p>
             <p>
