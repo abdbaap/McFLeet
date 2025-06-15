@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
-</Footer>
+<Footer/>
       </body>
     </html>
   );
