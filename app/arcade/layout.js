@@ -11,7 +11,8 @@ export default function RootLayout({ children }) {
       <body>
         {/* This is the short heading that will be visible at the top of your webpage,
             near where you might place your icon. It's pulled from the h1 in page.js. */}
-        <Navbar/>
+        <Navbar bg="bg-gray-900"/>
+    
         {children}
       </body>
     </html>
