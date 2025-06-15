@@ -1,11 +1,12 @@
 "use client"; // This directive is crucial for client-side functionality
-
+import Navbar from "../navbar";
 import React from 'react';
 
 const TermsAndConditionsPage = () => {
   return (
     <div className="bg-indigo-50 min-h-screen flex flex-col items-center justify-center py-12">
-      {/* Main container for the blog content */}
+    </Navbar>
+    {/* Main container for the blog content */}
       <main className="container mx-auto p-4 md:p-10">
         {/* Header section of the blog post */}
         <header className="text-center mb-16">
