@@ -70,9 +70,9 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
 {card.heading}</span>
   <span className="text text-white font-bold">{card.paragraph}
 </span>
-     <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2"> <Link href=`/${card.gameMode}`>Explore Now!</Link></button>
-
-
+     <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2">
+  <Link href={`/${card.gameMode}`}>Explore Now!</Link>
+</button>
 </div>
 
 }
