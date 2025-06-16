@@ -16,7 +16,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${poppins.variable}`}> {/* Apply the font variable to the html tag */}
+    <html lang="en" className={`${poppins.variable}`}>
+<head><meta name="google-adsense-account" content="ca-pub-6836466532865002">
+  <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
+  </head>{/* Apply the font variable to the html tag */}
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
