@@ -83,7 +83,7 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
       </div>
 
         <div className="founder sm:flex-row flex flex-col md:flex-row justify-evenly items-center gap-4 md:p-16 p-8 my-8 w-[100%]">
-<Image src="/founder.jpeg" width={400} height={400} alt="AnshuBisht Image" className="rounded-xl w-[400px]"></Image><AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
+<Image src="/founder.jpeg" width={400} height={400} alt="AnshuBisht Image" className="rounded-xl "></Image><AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
 
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Meet the Visionary: Anshu Bisht (Gamerfleet)</span>
