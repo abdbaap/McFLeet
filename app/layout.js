@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css"; // Assuming you have a globals.css for global styles
 import Footer from "./footer";
-import Head from 'next/head';
+
 // Configure the Poppins font
 const poppins = Poppins({
   subsets: ['latin'],
@@ -10,24 +10,37 @@ const poppins = Poppins({
   variable: '--font-poppins', // Define a CSS variable for easier use with Tailwind CSS
 });
 
+// This is where you define your metadata for the App Router
 export const metadata = {
   title: "MCFleet - India's Best Lag-Free Minecraft Server | Bedwars, Survival, Arcade, Parkour & More",
   description: "Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.",
+  // For custom meta tags like Google verification, use the 'other' property
+  other: {
+    'google-adsense-account': 'ca-pub-6836466532865002',
+    'google-site-verification': 'MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew',
+  },
+  // If you have an AdSense script, it can also be added here under `scripts`
+  // scripts: [
+  //   {
+  //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002',
+  //     async: true,
+  //     crossOrigin: 'anonymous',
+  //   },
+  // ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
-<Head>
-    <meta name="google-adsense-account" content="ca-pub-6836466532865002"/>
-  <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
-    {/* You can also add other head elements here, e.g.: */}
-    
-  </Head>{/* Apply the font variable to the html tag */}
+      {/*
+        In the App Router, the <head> element is automatically handled by Next.js
+        based on the 'metadata' export. You do not place a <Head> component or
+        a native <head> tag directly here.
+      */}
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
-<Footer/>
+        <Footer/>
       </body>
     </html>
   );
