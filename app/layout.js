@@ -1,6 +1,7 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css"; // Assuming you have a globals.css for global styles
 import Footer from "./footer";
+import Head from 'next/head';
 // Configure the Poppins font
 const poppins = Poppins({
   subsets: ['latin'],
@@ -17,9 +18,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
-<head><meta name="google-adsense-account" content="ca-pub-6836466532865002">
-  <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
-  </head>{/* Apply the font variable to the html tag */}
+<Head>
+    <meta name="google-adsense-account" content="ca-pub-6836466532865002" /> {/* <--- Corrected this line */}
+    <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
+    {/* You can also add other head elements here, e.g.: */}
+    
+  </Head>{/* Apply the font variable to the html tag */}
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
