@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
 <Head>
-    <meta name="google-adsense-account" content="ca-pub-6836466532865002" /> {/* <--- Corrected this line */}
-    <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
+    <meta name="google-adsense-account" content="ca-pub-6836466532865002">
+  <meta name="google-site-verification" content="MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew" />
     {/* You can also add other head elements here, e.g.: */}
     
   </Head>{/* Apply the font variable to the html tag */}
