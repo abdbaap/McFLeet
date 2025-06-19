@@ -19,14 +19,14 @@ export const metadata = {
     'google-adsense-account': 'ca-pub-6836466532865002',
     'google-site-verification': 'MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew',
   },
-  // If you have an AdSense script, it can also be added here under `scripts`
-  // scripts: [
-  //   {
-  //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002',
-  //     async: true,
-  //     crossOrigin: 'anonymous',
-  //   },
-  // ],
+  // CORRECT way to add AdSense script using the 'scripts' property
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002',
+      async: true,
+      crossOrigin: 'anonymous',
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -35,11 +35,11 @@ export default function RootLayout({ children }) {
       {/*
         In the App Router, the <head> element is automatically handled by Next.js
         based on the 'metadata' export. You do not place a <Head> component or
-        a native <head> tag directly here.
+        a native <head> tag directly here. The AdSense script is now handled
+        via the 'scripts' property in metadata.
       */}
       <body>
-        {/* Your existing header or site-wide elements could go here if applicable */<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002"
-     crossorigin="anonymous"></script></head>
+        {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
         <Footer/>
       </body>
