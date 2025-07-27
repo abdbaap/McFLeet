@@ -38,6 +38,10 @@ export default function RootLayout({ children }) {
         a native <head> tag directly here. The AdSense script is now handled
         via the 'scripts' property in metadata.
       */}
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002"
+     crossorigin="anonymous"></script>
+  </head>
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
