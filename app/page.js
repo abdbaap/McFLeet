@@ -57,7 +57,7 @@ Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
 Discover MCFleet: Built for Gamers, By Gamers.</span>
         <span className="text">
 MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by the renowned Indian YouTuber and gamer, Gamerfleet. Designed to address the common pain points of online gaming, MCFleet prides itself on offering a virtually lag-free and stable experience, ensuring that Indian players can immerse themselves without the frustration of connectivity issues. This vibrant server boasts a diverse array of game modes to cater to every kind of player, from the strategic battles of Bedwars and the expansive exploration of Survival, to a dynamic Arcade section brimming with a multitude of engaging mini-games. Beyond the core offerings, MCFleet also features a unique mini parkour game, challenging players&apos; agility and precision. To further fuel competition and community engagement, the server incorporates a comprehensive leaderboard system, allowing players to track their progress and compete for top honors across all their favorite game modes.</span></div>
-<Image src="/survivalcardoption.jpg" width={400} height={400} alt="survival series image" className="rounded-xl"></Image>
+<Image src="/survivalcardoption.jpg" width={400} height={400} alt="survival series image mcfleet mcfleet server logo" className="rounded-xl"></Image>
       </div>
       </AnimateOnScroll>
       <div className="flex flex-col justify-center items-center text-center w-[100%]  my-8"><span className="text-3xl font-bold">Features</span>
