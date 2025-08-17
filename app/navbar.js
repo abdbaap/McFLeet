@@ -12,7 +12,7 @@ const Navbar = ({bg}) => {
       
     }
   return (<nav className={`flex  py-4 z-40 justify-between relative  items-center w-[100%]  ${bg}`}>
-        <Link href="#home" className="text-2xl justify-center items-center text-2xl font-extrabold gap-2 mx-2 text-white flex"><Image src={"/logo.png"} width={50} height={50} alt="mcfleet mcfleeg server logo, play.mcfleet.net server mcfleet server mcfleet.net server mcfleet mcfleet minecraft server mcfleet server play.mcfleet.net mcfleet server logo ong mcfleet .net mcfleet ip store.mcfleet.net mcfleet store" className="ghg"></Image><h1> MCFleet</h1></Link>
+        <Link href="#home" className="text-2xl justify-center items-center text-2xl font-extrabold gap-2 mx-2 text-white flex"><Image src={"/logo.png"} width={50} height={50} alt="mcfleet mcfleet address how to claim blocks in mcfleet mcfleeg server logo, play.mcfleet.net server mcfleet server mcfleet.net server mcfleet mcfleet minecraft server mcfleet server play.mcfleet.net mcfleet server logo ong mcfleet .net mcfleet ip store.mcfleet.net mcfleet store" className="ghg"></Image><h1> MCFleet</h1></Link>
         <div className="dropdown group flex  flex-col mx-2">
 <svg onClick={()=>showindex()} className="w-10 invert " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
