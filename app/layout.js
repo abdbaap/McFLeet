@@ -1,59 +1,60 @@
+// app/layout.js
 import { Poppins } from 'next/font/google';
-import "./globals.css"; // Assuming you have a globals.css for global styles
+import Script from 'next/script'; // Import the Script component for AdSense
+import "./globals.css";
 import Footer from "./footer";
 
 // Configure the Poppins font
 const poppins = Poppins({
   subsets: ['latin'],
-  display: 'swap', // This is good for performance and user experience
-  weight: ['400', '700'], // Example: You can specify the weights you need
-  variable: '--font-poppins', // Define a CSS variable for easier use with Tailwind CSS
+  display: 'swap',
+  weight: ['400', '700'],
+  variable: '--font-poppins',
 });
 
 // This is where you define your metadata for the App Router
 export const metadata = {
   title: "MCFleet - India's Best Lag-Free Minecraft Server | Bedwars, Survival, Arcade, Parkour & More",
   description: "Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.",
-  // Add keywords based on your Google Search Console data for better SEO
+  // Add keywords for better SEO
   keywords: [
     "mcfleet",
     "mcfleet server",
     "mcfleet server logo",
     "play.mcfleet.net server",
     "mcfleet.net server",
-    "minecraft server india", // General, but relevant based on your title/description
+    "minecraft server india",
     "lag-free minecraft",
     "bedwars",
     "survival minecraft",
     "minecraft arcade",
     "minecraft parkour"
   ],
-  // For custom meta tags like Google verification, use the 'other' property
+  // CORRECT way to add Google verification tags and AdSense account ID
   other: {
     'google-adsense-account': 'ca-pub-6836466532865002',
     'google-site-verification': 'MIDLOYFbs4SS5EOC6oQcQd2CU6R4U0gxy70ESi1oLew',
   },
-  // CORRECT way to add AdSense script using the 'scripts' property
-  scripts: [
-    {
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002',
-      async: true,
-      crossOrigin: 'anonymous',
-    },
-  ],
+  // We will add the AdSense script using the <Script> component below
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
-      {/*
-        In the App Router, the <head> element is automatically handled by Next.js
-        based on the 'metadata' export. You do not place a <Head> component or
-        a native <head> tag directly here. The AdSense script is now handled
-        via the 'scripts' property in metadata.
-      */}
       <body>
-        {/* Your existing header or site-wide elements could go here if applicable */}
+        {/*
+          Use the next/script component to load the main AdSense script.
+          - strategy="afterInteractive" is recommended for auto ads.
+          - It loads the script after the page is interactive,
+            so it doesn't block the initial rendering.
+        */}
+        <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002`}
+        />
+
         {children}
         <Footer/>
       </body>
