@@ -14,6 +14,20 @@ const poppins = Poppins({
 export const metadata = {
   title: "MCFleet - India's Best Lag-Free Minecraft Server | Bedwars, Survival, Arcade, Parkour & More",
   description: "Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.",
+  // Add keywords based on your Google Search Console data for better SEO
+  keywords: [
+    "mcfleet",
+    "mcfleet server",
+    "mcfleet server logo",
+    "play.mcfleet.net server",
+    "mcfleet.net server",
+    "minecraft server india", // General, but relevant based on your title/description
+    "lag-free minecraft",
+    "bedwars",
+    "survival minecraft",
+    "minecraft arcade",
+    "minecraft parkour"
+  ],
   // For custom meta tags like Google verification, use the 'other' property
   other: {
     'google-adsense-account': 'ca-pub-6836466532865002',
@@ -38,10 +52,6 @@ export default function RootLayout({ children }) {
         a native <head> tag directly here. The AdSense script is now handled
         via the 'scripts' property in metadata.
       */}
-<head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002"
-     crossorigin="anonymous"></script>
-  </head>
       <body>
         {/* Your existing header or site-wide elements could go here if applicable */}
         {children}
