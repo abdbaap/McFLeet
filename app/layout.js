@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 // This is where you define your metadata for the App Router
 export const metadata = {
-  title: "MCFleet - India's Best Lag-Free Minecraft Server | Bedwars, Survival, Arcade, Parkour & More",
+  title: "mcfleet- India's Best Lag-Free Minecraft Server | Bedwars, Survival, Arcade, Parkour, Ranks , Store & More",
   description: "Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.",
   // Add keywords for better SEO
   keywords: [
@@ -28,7 +28,9 @@ export const metadata = {
     "bedwars",
     "survival minecraft",
     "minecraft arcade",
-    "minecraft parkour"
+    "minecraft parkour",
+    "mcfleet store", 
+    "mcfleet website",
   ],
   // CORRECT way to add Google verification tags and AdSense account ID
   other: {
