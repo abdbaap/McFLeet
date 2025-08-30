@@ -51,9 +51,9 @@ const Latestbullietins = () => {
             ${expandedBulletinId === bulletin.id ? "h-auto" : "h-[50px] overflow-hidden"}`}
             onClick={() => toggleExpand(bulletin.id)}
           >
-            <div className="heading text-xl font-bold p-4">{bulletin.heading}</div>
+            <h1 className="heading text-xl font-bold p-4">{bulletin.heading}</h1>
             {expandedBulletinId === bulletin.id && (
-              <span className="text-base">{bulletin.content}</span>
+              <p className="text-base">{bulletin.content}</p>
             )}
           </div>
       </AnimateOnScroll>
