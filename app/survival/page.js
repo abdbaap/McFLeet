@@ -5,10 +5,10 @@ import AnimateOnScroll from "../AnimateOnScroll";
 const Page = () => {
   return (
     <div className="survival flex flex-col text-center py-8 my-8 items-center gap-2">
-    <span className="text-3xl font-bold bg-blue-900 text-white -skew-1 mx-4 p-4 my-4 rounded-xl"><AnimateOnScroll animationClass="opacity-0 translate-x-[100px]" // Example animation class
+    <h1 className="text-3xl font-bold bg-blue-900 text-white -skew-1 mx-4 p-4 my-4 rounded-xl"><AnimateOnScroll animationClass="opacity-0 translate-x-[100px]" // Example animation class
           visibleClass="opacity-100 translate-x-0"     // Example visible class
           duration="duration-700"
-         > Extensive Survival Mode</AnimateOnScroll> </span>
+         > Extensive Survival Mode</AnimateOnScroll> </h1>
       <div className="flex flex-col justify-center w-[100%] items-center gap-8">
 
         {/* Section 1: Lag-free Performance and Introduction */}
