@@ -371,7 +371,7 @@ export default function AdobeProblemPage() {
                                 </div>
                                 <div className="comment-item">
                                     <p className="comment-author">Creative Thinker</p>
-                                    <p className="comment-text">Such a simple solution, I can't believe I didn't think of it. Lifesaver!</p>
+                                    <p className="comment-text">Such a simple solution, I can not believe I did not think of it. Lifesaver!</p>
                                 </div>
                                 <div className="comment-item">
                                     <p className="comment-author">Adobe Fan</p>
