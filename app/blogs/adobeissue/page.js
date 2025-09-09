@@ -1,4 +1,4 @@
-"use client
+"use client"
 // A single, self-contained Next.js page component.
 // All images and links are now handled by next/image and next/link respectively.
 // The head section has been removed as per instructions.
