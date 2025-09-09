@@ -1,3 +1,4 @@
+"use client"
 // A single, self-contained Next.js server-side component page.
 
 import Link from 'next/link';
