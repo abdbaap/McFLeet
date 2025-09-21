@@ -38,6 +38,12 @@ export const metadata = {
    "shop mcfleet net",
 "mcfleet store minecraft server",
 "shop.mcfleet",
+   "mcfleet",
+"mcfleet.store",
+"fleet store minecraft",
+"mcfleet store minecraft",
+"fleet store minecraft server",
+"https://store.mcfleet.net",
   ],
   // CORRECT way to add Google verification tags and AdSense account ID
   other: {
