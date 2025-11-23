@@ -56,7 +56,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
-      <body>
+     <head><meta name="msvalidate.01" content="732FAFAE86081567CB2465CABE8D7F31" />
+    </head>
+  <body>
         {/*
           Use the next/script component to load the main AdSense script.
           - strategy="afterInteractive" is recommended for auto ads.
