@@ -4,6 +4,7 @@ import Navbar from "./navbar";
 import Latestbullietins from "./latestbullietins";
 import Ip from "./ip";
 import AnimateOnScroll from "./AnimateOnScroll";
+import AdBanner from "./adsense";
 
 export default function Home() {
   // JavaScript string literals should still use regular quotes as they are part of JS syntax.
@@ -51,7 +52,9 @@ Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
 </span>
           <button className="text-xl bg-blue-800 drop-shadow-2xl text-white font-bold px-8 rounded-4xl py-4">Start Adventure Now!</button>
         </div>
-      </div></div><AnimateOnScroll>
+      </div></div>
+      <AdBanner/>
+      <AnimateOnScroll>
             <div className="intro sm:flex-row flex flex-col-reverse md:flex-row justify-evenly items-center gap-4 md:p-16 p-8 my-8">
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Discover MCFleet: Built for Gamers, By Gamers.</span>
@@ -62,6 +65,8 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
       </AnimateOnScroll>
       <div className="flex flex-col justify-center items-center text-center w-[100%]  my-8"><span className="text-3xl font-bold">Features</span>
 
+  
+  <AdBanner/>
   <AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
       <div id="blogs" className="flex flex-wrap gap-4 p-4 justify-center items-center text-center w-[100%]">
 {features.map((card) => {
@@ -83,7 +88,9 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
       </div>
 
         <div className="founder sm:flex-row flex flex-col md:flex-row justify-evenly items-center gap-4 md:p-16 p-8 my-8 w-[100%]">
-<Image src="/founder.jpeg" width={400} height={400} alt="AnshuBisht Gamerfleet mcfleet mcfleet store fleet mcfleet website mcfleetwebsite " className="rounded-xl "></Image><AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
+<Image src="/founder.jpeg" width={400} height={400} alt="AnshuBisht Gamerfleet mcfleet mcfleet store fleet mcfleet website mcfleetwebsite " className="rounded-xl "></Image>
+<AdBanner/>
+<AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
 
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Meet the Visionary: Anshu Bisht (Gamerfleet)</span>
