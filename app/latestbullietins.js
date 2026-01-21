@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import AnimateOnScroll from "./AnimateOnScroll";
 
+import AdBanner from "./adsense";
 const Latestbullietins = () => {
   const [bulletins, setBulletins] = useState([
     {
@@ -56,6 +57,7 @@ const Latestbullietins = () => {
               <p className="text-base">{bulletin.content}</p>
             )}
           </div>
+            <AdBanner/>
       </AnimateOnScroll>
   );
       })}
