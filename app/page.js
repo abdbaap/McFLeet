@@ -79,6 +79,7 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
      <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2">
   <Link href={`/${card.gameMode}`}>Explore Now!</Link>
 </button>
+<AdBanner/>
 </div>
 
 }
@@ -92,7 +93,9 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
 <AdBanner/>
 <AnimateOnScroll animationClass="opacity-0 -translate-y-10" visibleClass="opacity-100 translate-y-0">
 
+<AdBanner/>
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
+
 Meet the Visionary: Anshu Bisht (Gamerfleet)</span>
         <span className="text">
 
@@ -101,7 +104,9 @@ MCFleet stands as a testament to the vision and dedication of Anshu Bisht, bette
 </AnimateOnScroll>
       </div>
       <Latestbullietins/>
+<AdBanner/>
       <Ip/>
+<AdBanner/>
       </div>
   );
     }
