@@ -56,6 +56,9 @@ Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
       <AdBanner/>
       <AnimateOnScroll>
             <div className="intro sm:flex-row flex flex-col-reverse md:flex-row justify-evenly items-center gap-4 md:p-16 p-8 my-8">
+    
+  
+  <AdBanner/>
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
 Discover MCFleet: Built for Gamers, By Gamers.</span>
         <span className="text">
@@ -79,6 +82,9 @@ MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by
      <button className="text-xl bg-blue-800 text-white drop-shadow-2xl px-8 rounded-4xl md:py-4 py-2">
   <Link href={`/${card.gameMode}`}>Explore Now!</Link>
 </button>
+              
+  
+  <AdBanner/>
 </div>
 
 }
@@ -100,8 +106,17 @@ MCFleet stands as a testament to the vision and dedication of Anshu Bisht, bette
 </div>
 </AnimateOnScroll>
       </div>
+        
+  
+  <AdBanner/>
       <Latestbullietins/>
+        
+  
+  <AdBanner/>
       <Ip/>
+        
+  
+  <AdBanner/>
       </div>
   );
     }
