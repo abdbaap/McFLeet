@@ -46,8 +46,7 @@ export default function Home() {
     
       <div className="  flex flex-col shadow-sm hover:shadow-xl shadow-yellow-50 text-center w-[100%] justify-center items-center  my-0 p-4 ">
         <div className="flex w-[100%] flex-col p-8 gap-4 md:my-16 justify-center items-center ">
-          <span className="text-3xl text-white font-bold font-bold">
-Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
+          <h1 className="text-3xl text-white font-bold font-bold">The Best And Only Indian Minecraft Server- Mcfleet</h1>
           <span className="text-xl text-white font-bold font-bold ">Dive into MCFleet, India&apos;s leading Minecraft server designed for modern gamers. Forget lag and network issues &ndash; we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.
 </span>
           <button className="text-xl bg-blue-800 drop-shadow-2xl text-white font-bold px-8 rounded-4xl py-4">Start Adventure Now!</button>
@@ -60,7 +59,7 @@ Experience Minecraft. The Indian Way. No Lag. Pure Thrills.</span>
   
   <AdBanner/>
         <div className="text flex flex-col justify-center items-center gap-4"><span className="text-3xl font-bold">
-Discover MCFleet: Built for Gamers, By Gamers.</span>
+Explore First Indian Minecraft Server Mcfleet</span>
         <span className="text">
 MCFleet stands as India&apos;s premier Minecraft server, meticulously crafted by the renowned Indian YouTuber and gamer, Gamerfleet. Designed to address the common pain points of online gaming, MCFleet prides itself on offering a virtually lag-free and stable experience, ensuring that Indian players can immerse themselves without the frustration of connectivity issues. This vibrant server boasts a diverse array of game modes to cater to every kind of player, from the strategic battles of Bedwars and the expansive exploration of Survival, to a dynamic Arcade section brimming with a multitude of engaging mini-games. Beyond the core offerings, MCFleet also features a unique mini parkour game, challenging players&apos; agility and precision. To further fuel competition and community engagement, the server incorporates a comprehensive leaderboard system, allowing players to track their progress and compete for top honors across all their favorite game modes.</span></div>
 <Image src="/survivalcardoption.jpg" width={400} height={400} alt="survival series image mcfleet mcfleet server logo" className="rounded-xl"></Image>
