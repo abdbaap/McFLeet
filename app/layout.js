@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 // This is where you define your metadata for the App Router
 export const metadata = {
-  title: "Mcfleet One And Only Best Indian Server, Learn And Support Mcfleet",
+  title: "Get Premium Ranks For Free in Mcfleet",
   description: "Dive into MCFleet, India's leading Minecraft server designed for modern gamers. Forget lag and network issues – we deliver seamless Bedwars battles, epic Survival adventures, diverse Arcade games, and challenging Parkour. Join a thriving community where every moment is about pure fun and competitive play.",
   // Add keywords for better SEO
   keywords: [
