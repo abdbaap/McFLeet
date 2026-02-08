@@ -1,0 +1,58 @@
+@import "tailwindcss";
+.cardimg{
+    background-position: top;
+}
+*{
+ scroll-behavior: smooth; 
+}
+/* In your global.css or a dedicated CSS file */
+
+/* --- Fade In / Slide Up (Default-like) --- */
+.fade-up-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.fade-up-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Slide from Left --- */
+.slide-left-hidden {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.slide-left-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Slide from Right --- */
+.slide-right-hidden {
+  opacity: 0;
+  transform: translateX(100px);
+}
+.slide-right-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Scale In --- */
+.scale-hidden {
+  opacity: 0;
+  transform: scale(0.8);
+}
+.scale-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* --- Rotate In (Slight X-axis rotation) --- */
+.rotate-x-hidden {
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+.rotate-x-visible {
+  opacity: 1;
+  transform: rotateX(0deg);
+}
