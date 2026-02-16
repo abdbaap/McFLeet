@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mcfleetorg.vercel.app</loc>
+    <loc>https://mcfleetstore.vercel.app</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/survival</loc>
+    <loc>https://mcfleetstore.vercel.app/survival</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/arcade</loc>
+    <loc>https://mcfleetstore.vercel.app/arcade</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/bedwars</loc>
+    <loc>https://mcfleetstore.vercel.app/bedwars</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/about</loc>
+    <loc>https://mcfleetstore.vercel.app/about</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/support</loc>
+    <loc>https://mcfleetstore.vercel.app/support</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/terms</loc>
+    <loc>https://mcfleetstore.vercel.app/terms</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mcfleetorg.vercel.app/privacy</loc>
+    <loc>https://mcfleetstore.vercel.app/privacy</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
