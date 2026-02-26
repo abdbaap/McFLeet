@@ -57,6 +57,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
      <head><meta name="msvalidate.01" content="732FAFAE86081567CB2465CABE8D7F31" />
+  <link rel="canonical" href="https://mcfleetstore.vercel.app/" />
     </head>
   <body>
         {/*
